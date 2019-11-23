@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.html": "html",
+        "iostream": "cpp",
+        "bitset": "cpp",
+        "string": "cpp",
+        "queue": "cpp",
+        "numeric": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp"
+    }
+}
