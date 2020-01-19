@@ -28,6 +28,7 @@ typedef vector<vector<ll>> vvl;
 typedef pair<ll, ll> pll;
 #define rep(i, n) for (ll i=0; i < n; i++)  // 0 ~ n-1
 #define rep1(i, n) for (ll i=1; i <= n; i++)  // 1 ~ n
+#define repr(i, n) for (ll i=n-1; i >= 0; i++)  // n-1 ~ 0
 #define all(vec) (vec).begin(), (vec).end()
 #define sum(vec) accumulate(all(vec), 0LL)  // 0 は初期値
 #define min_vec(vec) min_element(all(vec))  // iterator: * を先頭につける
@@ -40,6 +41,7 @@ int main() {
     cin.tie(0);
     ios::sync_with_stdio(false);
     cout << fixed << setprecision(20);
+    
     // input(sunippets: inpv, inpn, inps)
     
     
@@ -48,3 +50,4 @@ int main() {
     
     return 0;
 }
+
