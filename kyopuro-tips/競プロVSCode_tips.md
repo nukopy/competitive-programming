@@ -20,7 +20,7 @@ $ python kyopro_auto_dir.py
 ```bash
 $ oj login https://atcoder.jp
 # USERNAME: ysys13
-# PASSWORD: ******9
+# PASSWORD: k*********
 ```
 
 - テストのダウンロード
