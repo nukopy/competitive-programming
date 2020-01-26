@@ -63,12 +63,10 @@ int main() {
     }
     
     // calculation
-    vector<ll> dp(10010, INF);
-    for (ll hp = 0; hp <= 10010; ++hp) {
-        dp[hp] = INF;
-    }
+    ll Hmax = 10010;
+    vector<ll> dp(Hmax, INF);
     
-    for (ll i = 0; i <= 10010; ++i) {
+    for (ll i = 0; i <= Hmax; ++i) {
         for (ll j = 0; j < N; ++j) {
             if (i - vec[j].first <= 0) {
                 chmin(dp[i], vec[j].second);
@@ -77,8 +75,8 @@ int main() {
             }
         }
     }
+    
     cout << dp[H] << "\n";
     
     return 0;
 }
-
