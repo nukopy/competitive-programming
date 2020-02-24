@@ -1,25 +1,26 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <iterator>
-#include <tuple>
-#include <map>
-#include <unordered_map>
-#include <set>
-#include <unordered_set>
-#include <stack>
-#include <queue>
 #include <algorithm>
-#include <functional>  // std::greater<T>()
-#include <utility>  // std::swap()
-#include <numeric>  // accumulate(ALL(vec), 0)  0 は初期値
 #include <bitset>  // static_cast<std::bitset<8>>
-#include <sstream>  // std::stringstream
+#include <cctype>  // std::isdigit()
+#include <climits>  // INT_MIN
 #include <cmath>
 #include <cstring>  // std::memset
-#include <climits>  // INT_MIN
-#include <cctype>  // std::isdigit()
+#include <functional>  // std::greater<T>()
 #include <iomanip>
+#include <iostream>
+#include <iterator>
+#include <numeric>  // accumulate(ALL(vec), 0)  0 は初期値
+#include <map>
+#include <list>
+#include <stack>
+#include <queue>
+#include <set>
+#include <sstream>  // std::stringstream
+#include <string>
+#include <tuple>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>  // std::swap()
+#include <vector>
 using namespace std;
 
 typedef long long ll;
@@ -50,4 +51,3 @@ int main() {
     
     return 0;
 }
-
