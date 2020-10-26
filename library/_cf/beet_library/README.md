@@ -1,2 +1,0 @@
-# library
-うぃーんﾋﾞｰﾄﾋﾞｰﾄひるどwwwwwwうっくっくwwwwwwえいえいえt(←いずらいt)いえいwwwwらて。
